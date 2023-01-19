@@ -1,0 +1,29 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+<web-app>
+
+  <servlet>
+  <servlet-name>First</servlet-name>
+  <servlet-class>pro.wings.FirstServlet</servlet-class>  
+  </servlet>
+  
+  <servlet>
+  <servlet-name>Third</servlet-name>
+  <servlet-class>pro.tut.ThirdProo</servlet-class>  
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>First</servlet-name>
+  <url-pattern>/First</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  <servlet-name>Third</servlet-name>
+  <url-pattern>/Third</url-pattern>
+  </servlet-mapping>
+  
+
+</web-app>
+
+
